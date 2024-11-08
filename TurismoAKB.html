@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo AKB</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para o cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between; /* Alinha a logo à esquerda e o menu à direita */
+            align-items: center; /* Alinha verticalmente */
+            padding: 10px 20px;
+            background-color: #333; /* Cor de fundo do cabeçalho */
+        }
+
+        /* Estilo para a logo */
+        .logo img {
+            width: 60px; /* Ajuste o tamanho da logo */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-right: 10px; /* Espaço entre a logo e o texto */
+        }
+
+        .logo h1 {
+            font-size: 1.8rem; /* Ajuste o tamanho do nome */
+            color: #ffffff; /* Cor do texto */
+            margin: 0;
+        }
+
+        /* Estilo para a navegação */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            color: #ff5733; /* Cor do link ao passar o mouse */
+        }
+
+        /* Aplique cor de fundo mais escura ao cabeçalho */
+        header {
+            background-color: #222;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="c:\Users\karolina.barros\Downloads\WhatsApp Image 2024-11-07 at 17.14.08.jpeg" alt="logo">
+            <h1>Turismo AKB</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="TurismoAKB.html">Home</a></li>
+                <li><a href="destino.html">Destinos</a></li>
+                <li><a href="pacotes.html">Pacotes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home" class="section home">
+        <div class="content">
+            <h2>Explore o Mundo com Turismo AKB</h2>
+            <p>Descubra os melhores destinos e pacotes de viagem para sua próxima aventura!</p>
+        </div>
+    </section>
+
+    <!-- Seção Destinos -->
+    <section id="destinos" class="section destinos">
+        <h2>Bate Volta</h2>
+        <div class="destinos-container">
+            <!-- Destino Nacional -->
+            <div class="destino">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2021/02/destinos-nacionais-2021.jpg" alt="Destinos Nacionais">
+                <h3>Destinos Nacionais</h3>
+                <p>Explore as belezas do Brasil!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Pacotes -->
+    <section id="pacotes" class="section pacotes">
+        <h2>Pacotes de Viagem</h2>
+        <div class="pacote">
+            <h3>Três Fronteiras</h3>
+            <img src="c:\Users\karolina.barros\Downloads\WhatsApp Image 2024-11-08 at 12.34.42.jpeg" alt="Pacote Três Fronteiras">
+            <p><em>"Descubra a magia onde três países se encontram e viva uma experiência única entre Brasil, Argentina e Paraguai."</em></p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="pacote"> 
+            <h3>Beto Carrero World</h3>
+            <img src="c:\Users\karolina.barros\Downloads\WhatsApp Image 2024-11-08 at 12.50.10.jpeg" alt="Beto Carrero World">
+            <p><em> Maior parque temático da América Latina, com atrações radicais, shows incríveis e um zoológico de tirar o fôlego. O Beto Carrero World em Penha, SC, é um destino imperdível para quem busca diversão para toda a família!</em></p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section sobre">
+        <h2>Sobre a Turismo AKB</h2>
+        <p>Somos uma agência especializada em turismo, oferecendo as melhores opções de pacotes e destinos para viajantes de todo o Brasil. Nosso objetivo é proporcionar experiências inesquecíveis a cada cliente.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Turismo AKB - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
